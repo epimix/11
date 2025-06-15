@@ -30,7 +30,7 @@ const nextBtn = document.getElementById('nextBtn');
 function updateLight() {
   states.forEach((color, index) => {
     const el = document.getElementById(color);
-    el.style.backgroundColor = (index === current) ? color : 'lightblue';
+    el.style.backgroundColor = (index === current) ? color : 'lightslategrey';
   });
 }
 
