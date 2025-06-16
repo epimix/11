@@ -1,27 +1,21 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
 .block {
   width: 60px;
   height: 40px;
   display: inline-block;
-  margin: 4px;
-}
-
-#traffic-light {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .light {
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
   border-radius: 50%;
-  background-color: lightslategrey;
-}
-
-button {
-  margin-top: 10px;
-  padding: 10px 20px;
+  background: lightslategray;
+  display: inline-block;
 }
